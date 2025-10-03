@@ -45,12 +45,6 @@ function App() {
     <div className="countdown-box">
       <p className="label">Draw Happening In</p>
       <div className="timer">
-        {timeLeft.days > 0 && (
-          <div>
-            <div className="number">{pad(timeLeft.days)}</div>
-            <div className="unit">days</div>
-          </div>
-        )}
         <div>
           <div className="number">{pad(timeLeft.hours)}</div>
           <div className="unit">hours</div>
@@ -87,6 +81,7 @@ function App() {
         <a href="https://objective.se" className="nav-link" target="_blank" rel="noopener noreferrer">Visit Our Website</a>
       </header>
       <main>
+        {!winningTicket && !timeLeft.ended ? renderCountdown() : renderResult()}
         <div className="content-wrapper">
           <div className="prize-info">
             <h2 className="prize-title">Sonos Roam 2</h2>
@@ -95,7 +90,6 @@ function App() {
             <a href="https://www.sonos.com/sv-se/shop/roam-2" target="_blank" rel="noopener noreferrer" className="product-link">Learn More</a>
           </div>
         </div>
-        {!winningTicket && !timeLeft.ended ? renderCountdown() : renderResult()}
       </main>
     </div>
   )

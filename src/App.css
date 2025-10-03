@@ -53,7 +53,7 @@ main {
 .content-wrapper {
   margin-bottom: 40px;
   background: white;
-  padding: 40px;
+  padding: 30px;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
 }
@@ -65,14 +65,14 @@ main {
 .prize-title {
   font-size: 32px;
   color: #282829;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
   font-weight: 700;
 }
 
 .product {
   width: 100%;
   max-width: 350px;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
   transition: transform 0.3s ease;
   display: block;
 }
@@ -84,8 +84,8 @@ main {
 .prize-desc {
   font-size: 16px;
   color: #555;
-  line-height: 1.6;
-  margin: 0 0 25px 0;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
 }
 
 .product-link {
@@ -109,16 +109,17 @@ main {
 
 .countdown-box {
   background: white;
-  padding: 50px 40px;
+  padding: 30px 30px;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
 }
 
 .label {
-  font-size: 16px;
+  font-size: 15px;
   color: #666;
   letter-spacing: 2px;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
@@ -137,16 +138,16 @@ main {
 }
 
 .number {
-  font-size: 80px;
+  font-size: 56px;
   font-weight: 700;
   color: #00A8DD;
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   letter-spacing: -3px;
 }
 
 .unit {
-  font-size: 16px;
+  font-size: 14px;
   color: #888;
   font-weight: 500;
   text-transform: lowercase;
@@ -195,7 +196,7 @@ main {
   }
 
   .countdown-box {
-    padding: 50px 30px;
+    padding: 25px 25px;
   }
 
   .timer {
@@ -207,7 +208,7 @@ main {
   }
 
   .number {
-    font-size: 72px;
+    font-size: 48px;
   }
 
   .unit {
@@ -243,7 +244,7 @@ main {
   }
 
   .content-wrapper {
-    padding: 30px 24px;
+    padding: 24px 18px;
   }
 
   .product {
@@ -264,12 +265,12 @@ main {
   }
 
   .countdown-box {
-    padding: 40px 25px;
+    padding: 20px 15px;
   }
 
   .label {
-    font-size: 15px;
-    margin-bottom: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
   }
 
   .timer {
@@ -282,7 +283,7 @@ main {
   }
 
   .number {
-    font-size: 56px;
+    font-size: 32px;
   }
 
   .unit {
